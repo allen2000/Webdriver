@@ -17,3 +17,5 @@ print 'forward to: ', driver.current_url
 time.sleep(2)
 driver.refresh()  # refresh
 print 'refresh: ', driver.current_url
+
+#Refresh and back may cause the element property changed
